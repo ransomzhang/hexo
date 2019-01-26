@@ -3,8 +3,8 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title:Life 
-subtitle:Do things, write it down, and share.
+title: Life 
+subtitle: 
 description:
 keywords:
 author: Ransom Zhang
@@ -78,4 +78,6 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: https://github.com/ransomzhang/hexo.git
+  branch: master
